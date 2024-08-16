@@ -1,3 +1,5 @@
+// The first example from Project Odin with some extra Usability to set the favorit Animal easyer
+
 function fovoriteAnimal(myAnimal) { //declare a functio functionname(parameter){
     return myAnimal + " is my favorite animal!" //return myAnimal with some text
 }
