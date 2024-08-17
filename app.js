@@ -15,9 +15,14 @@
 // myFunction();//aufruf der funktion
 
 //Funktion mit optional parameters
-function hello(name){ //Start der Funktion mit optionalen parameter, hier "name"
-    alert(`Hello ${name}!`) //codeblock der am ende ein alertfenster ausspuckt, das einen begrüßt. Wichtig: Backticks! und ${name}. Dort wird am Ende der eingegebene Name gespeichert.
-};
-const myName = prompt("Wie heißen Sie?");//erstellt wieder ein prompt mit der aufforderung den Namen ein zu geben
-const tellName = myName;//Eingegebener Name wird gespeichert
-hello(tellName);//Funktion wird aufgerufen und
+// function hello(name){ //Start der Funktion mit optionalen parameter, hier "name"
+//     alert(`Hello ${name}!`) //codeblock der am ende ein alertfenster ausspuckt, das einen begrüßt. Wichtig: Backticks! und ${name}. Dort wird am Ende der eingegebene Name gespeichert.
+// };
+// const myName = prompt("Wie heißen Sie?");//erstellt wieder ein prompt mit der aufforderung den Namen ein zu geben
+// const tellName = myName;//Eingegebener Name wird gespeichert
+// hello(tellName);//Funktion wird aufgerufen und
+
+//An easy arrowfunction
+const originals = [1, 2, 3];
+const doubled = originals.map(item => item*2); //item => item*2 is the arrow function equivalent of function doubleItem(item){ return item*2;}
+console.log(doubled);
